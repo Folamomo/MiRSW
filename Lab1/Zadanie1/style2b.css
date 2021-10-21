@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    width: 100px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.selected {
+    align-self: center;
+}
+
+div {
+    border: solid 1px blue;
+    border-radius: 2px;
+
+}
+
+.box div {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.box div:first-child{
+    align-self: stretch;
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+}
+
+main{
+    background-color: lightgray;
+    display: flex;
+    padding: 10px;
+    border: black solid 1px;
+    flex-direction: column;
+}
+
+header {
+    padding: 10px;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    top: -20px;
+    background-color: white;
+    height: 30px;
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border: black solid 1px;
+}
+
+nav{
+    display: flex;
+}
+
+nav div {
+    flex: 1;
+    text-align: center;
+    border: black solid 1px;
+    background-color: white;
+    padding: 5px;
+}
+
+nav div#homepage {
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+nav div:hover{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+aside div {
+    text-align: center;
+    padding: 5px;
+}
+
+article {
+    flex: 3;
+    text-align: center;
+    border: black solid 1px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: gray;
+}

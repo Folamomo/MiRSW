@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-between;
+    width: 400px;
+    flex-direction: column;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 15px;
+    flex: 1;
+    border: transparent solid 1px;
+}
+
+nav div:hover{
+    background-color: lightcoral;
+    border: darkred solid 1px;
+}
+
+div#buttons {
+    justify-content: space-evenly;
+    padding: 0;
+    border: transparent solid 1px;
+    background-color: red;
+}
+
+
+div#buttons div img {
+    width: 20px;
+}
+
+div#buttons div{
+
+}
+
+div#buttons div:hover {
+    background-color: lightcoral;
+    border: darkred solid 1px;
+}

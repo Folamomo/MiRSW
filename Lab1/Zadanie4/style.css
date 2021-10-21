@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    width: 100%;
+}
+
+section div {
+    flex: 1;
+    width: 100px;
+}
+
+section div:hover {
+    flex: 3;
+}
+
+image {
+    max-width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+}
+
+img {
+    padding: 5px;
+    height: 30%;
+    width: 20%;
+}
+
+#i1 {
+    width: 20%;
+    height: 20%;
+}
+
+#i2 {
+    width: 30%;
+}
+
+#i3 {
+    width: 10%;
+    height: 30%;
+}

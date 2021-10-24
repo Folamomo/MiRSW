@@ -1,0 +1,61 @@
+#all{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    display: flex;
+	flex-direction: column;
+    background-color: #232637;
+    max-width: 25em;
+}
+header{
+    background-color: orange;
+    color: yellow;
+}
+h1{
+    margin: 1em;
+    font-size: larger;
+}
+
+footer{
+    display: flex;
+    background-color: orange;
+    justify-content: flex-end;
+}
+footer button{
+    align-self: flex-end;
+    margin: 0.7em;
+    border:none;
+    padding: 0.7em;
+    color: white;
+}
+#send{
+    background-color: green;
+}
+#cancel{
+  background-color: red;
+}
+
+form {
+    color: yellow;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-gap: 1em;
+    margin: 5%;
+}
+
+form label{
+  justify-self: end;
+}
+
+form input[type=text] {
+    max-width: 10em;
+}
+form input[type=email] {
+    max-width: 10em;
+}
+form input[type=password] {
+    max-width: 10em;
+}
+form input[type=tel] {
+    max-width: 10em;
+}

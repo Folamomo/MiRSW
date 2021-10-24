@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="all">
+
+<header>
+      <h1>Sign Up</h1>
+</header>
+
+<main>
+
+  <form class="form1" action="">
+    <label  for="firstName" class="first-name">First Name</label>
+    <input  placeholder="Enter First Name" id="firstName" type="text">
+
+    <label for="lastName" class="last-name">Last Name</label>
+    <input  placeholder="Enter Last Name"  id="lastName" type="text">
+
+    <label >Date of Birth</label>
+    <div>
+
+      <select id="date" name="date">
+        <option>Date</option>
+      </select>
+  
+        <select id="month" name="month">
+        <option>Month</option>
+      </select>
+  
+        <select id="year" name="year">
+          <option>Year</option>
+          </select>
+  
+    </div>
+
+    <label for="email">Gender</label>
+    <div>
+      <input  value="Male" type="radio">
+      <label>Male</label>
+      <input  value="Female" type="radio">
+      <label >Female</label>
+    </div>
+    <label >Country</label>
+    <div>
+      <select id="country" name="country">
+        <option>Country</option>
+        </select>
+    </div> 
+
+    <label for="email">Email</label>
+    <input   placeholder="Enter E-mail"  id="email" type="email">
+
+    <label for="phone">Phone</label>
+    <input  placeholder="Enter Phone" id="phone" type="tel">
+
+    <label for="Password">Password</label>
+    <input id="Password" type="password">
+
+    <label for="Confirm_Password">Confirm Password</label>
+    <input id="Confirm_Password" type="password">
+    <div></div>
+    <div>
+      <input type="checkbox">
+      <label >I Agree to the Term of use</label>
+    </div>
+    
+
+  </form>
+
+</main>
+
+  <footer>
+    <button id="send">Prześlij</button>
+    <button id="cancel">Cancel</button>
+  </footer>
+
+ </div>
+</body>
+</html>

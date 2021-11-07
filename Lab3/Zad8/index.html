@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<main>
+<div class="item" id="card_template">
+  <div class="dane">
+    <div class="name">Imię i Nazwisko</div>
+    <div class="number">123 123 123</div>
+  </div>
+  <img src="trash.svg" alt="delete"  class="remove">
+</div>
+
+</main>
+<form>
+  <label for="name" id="nameLabel">Imię i Nazwisko</label>
+  <label for="phone" id="phoneLabel">Telefon</label>
+  <input type="text" id="name" name="name">
+  <input type="number" id="phone" name="phone">
+  <input type="button" id="add_card" name="add" value="Dodaj">
+</form>
+</body>
+</html>

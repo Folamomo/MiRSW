@@ -1,0 +1,85 @@
+body{
+    max-width: 900px;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 1em;
+    margin: 1em;
+    grid-gap: 0.2em;
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 3px 1px lightgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+
+}
+
+main .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 3px 1px lightgray;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+main .item div {
+    padding: 0.2em;
+}
+
+.dane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.remove {
+    background-color: green;
+    padding: 0.3em;
+    height: 2em;
+    border-radius: 0.5em
+}
+
+
+label {
+    text-transform: uppercase;
+    font-size: small;
+    color: gray;
+}
+
+#name {
+    grid-row: 2/3;
+    min-width: 10em;
+}
+
+#phone {
+    grid-row: 2/3;
+    min-width: 6em;
+}
+
+#add_card {
+    grid-row: 2/3;
+    background-color: green;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+#card_template {
+    display: none;
+}

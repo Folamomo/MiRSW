@@ -1,0 +1,19 @@
+#blue{
+    background-color: lightblue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}
+
+.color{
+    padding: 1em;
+    text-align: center;
+    width: min-content;
+
+}
+

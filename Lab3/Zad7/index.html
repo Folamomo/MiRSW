@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <form>
+      <label for="firstName">Imię</label>
+      <input id="firstName" type="text">
+
+      <label for="lastName">Nazwisko</label>
+      <input id="lastName" type="text">
+
+
+      <label for="birthYear">Rok urodzenia</label>
+      <input id="birthYear" placeholder="1970" >
+
+      <label for="retireYear">Planowany pierwszy rok emerytury</label>
+      <input id="retireYear" placeholder="2021">
+
+      <label>Płeć</label>
+      <div>
+        <input value="Male" id="Male" name="gender" type="radio">
+        <label for="Male">Mężczyzna</label>
+        <input value="Female" id="Female" name="gender" type="radio">
+        <label for="Female">Kobieta</label>
+      </div>
+      <label for="phone">Numer telefonu</label>
+      <input id="phone">
+
+      <button id="send-btn">Prześlij</button>
+      <span id="answer"></span>
+    </form>
+
+  </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+{
+  "kategorie": [
+    "Samochody",
+    "Kanapki",
+    "Napoje",
+    "Pizza",
+    "Rakiety"
+  ],
+  "produktyA":
+  {
+    "Samochody": [
+      {"nazwa": "Fiat"},
+      {"nazwa": "BMW"},
+      {"nazwa": "Mazda"},
+      {"nazwa": "FSO"}
+    ],
+
+    "Kanapki": [
+      {"nazwa": "Z szynką"},
+      {"nazwa": "Z serem"},
+      {"nazwa": "Z ogórkiem"}
+    ],
+    "Pizza": [
+      {"nazwa": "Margherita"},
+      {"nazwa": "Pepperoni"},
+      {"nazwa": "Bianchi"},
+      {"nazwa": "Fungi"}
+    ],
+    "Rakiety": [
+      {"nazwa": "Falcon 9"},
+      {"nazwa": "Atlas V"},
+      {"nazwa": "Ariane 5"}
+    ]
+  },
+  "produktyB": {
+    "Samochody": [
+      {"nazwa": "Mercedes"},
+      {"nazwa": "BMW"},
+      {"nazwa": "Mazda"},
+      {"nazwa": "Renault"}
+    ],
+
+    "Napoje": [
+      {"nazwa": "Cola"},
+      {"nazwa": "Sok pomarańczowy"},
+      {"nazwa": "Herbata"},
+      {"nazwa": "Kawa"}
+    ],
+    "Pizza": [
+      {"nazwa": "Margherita"},
+      {"nazwa": "Chicago"},
+      {"nazwa": "Bianchi"},
+      {"nazwa": "Tricolore"}
+    ],
+    "Rakiety": [
+      {"nazwa": "Soyuz"},
+      {"nazwa": "Proton"},
+      {"nazwa": "Electron"}
+    ]
+  }
+}

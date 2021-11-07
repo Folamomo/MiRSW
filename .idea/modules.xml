@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie1/1.Zadanie1.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie1/1.Zadanie1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie2/1.Zadanie2.iml" filepath="$PROJECT_DIR$/Zadanie2/1.Zadanie2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie2a/1.Zadanie2a.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie2a/1.Zadanie2a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie3/1.Zadanie3.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie3/1.Zadanie3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie4/1.Zadanie4.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie4/1.Zadanie4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie5/1.Zadanie5.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie5/1.Zadanie5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie6/1.Zadanie6.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie6/1.Zadanie6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie7/1.Zadanie7.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie7/1.Zadanie7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie8/1.Zadanie8.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie8/1.Zadanie8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie9/1.Zadanie9.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie9/1.Zadanie9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/Zadanie0/Lab2/2.Zadanie0.iml" filepath="$PROJECT_DIR$/Lab2/Zadanie0/Lab2/2.Zadanie0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/2.Zadanie1/Lab2/2.Zadanie1.iml" filepath="$PROJECT_DIR$/Lab2/2.Zadanie1/Lab2/2.Zadanie1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/2.Zadanie2/Lab2/2.Zadanie2.iml" filepath="$PROJECT_DIR$/Lab2/2.Zadanie2/Lab2/2.Zadanie2.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiRSW.iml" filepath="$PROJECT_DIR$/MiRSW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie1/Zadanie1.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie1/Zadanie1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Zadanie2/Zadanie2.iml" filepath="$PROJECT_DIR$/Zadanie2/Zadanie2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie2a/Zadanie2a.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie2a/Zadanie2a.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie3/Zadanie3.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie3/Zadanie3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie4/Zadanie4.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie4/Zadanie4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie5/Zadanie5.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie5/Zadanie5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie6/Zadanie6.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie6/Zadanie6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie7/Zadanie7.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie7/Zadanie7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie8/Zadanie8.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie8/Zadanie8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab1/Zadanie9/Zadanie9.iml" filepath="$PROJECT_DIR$/Lab1/Zadanie9/Zadanie9.iml" />
     </modules>
   </component>
 </project>

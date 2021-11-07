@@ -1,0 +1,84 @@
+body {
+    padding: 1%;
+    background-color: lightgray;
+    border: solid 1px;
+}
+header {
+    display: block;
+    padding: 1%;
+    background-color: gray;
+    border: solid 1px;
+}
+
+#logo {
+    background-color: white;
+    padding: 3%;
+    width: 20%;
+    margin: 2%;
+    border: solid 1px;
+}
+
+nav {
+    padding: 2%;
+    background-color: white;
+    border: solid 1px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+article {
+    border: solid 1px;
+    padding: 1% 1% 10em;
+    width: 50%;
+}
+
+.left{
+    width: 30%;
+}
+
+aside {
+    padding: 1%;
+    border: solid 1px;
+}
+
+.right {
+    border: solid 2px;
+    width: 13%;
+}
+
+footer {
+    background-color: gray;
+    border: solid 1px;
+    padding: 2%;
+}
+
+@media screen and (max-width: 800px){
+    .left{
+        width: 25%;
+    }
+    article{
+        width: 70%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .left{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    #logo{
+        display: none;
+    }
+}

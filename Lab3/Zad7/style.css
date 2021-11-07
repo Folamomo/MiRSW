@@ -1,0 +1,26 @@
+body{
+    max-width: 500px;
+    background-color: lightblue;
+}
+main{
+    display: flex;
+	flex-direction: column;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+  }
+
+button{
+    grid-column: 2;
+}
+
+form label{
+      justify-self: end;
+}
+
+#answer {
+    grid-column: 1/3;
+}

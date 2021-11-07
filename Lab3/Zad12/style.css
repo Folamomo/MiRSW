@@ -1,0 +1,32 @@
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 6fr;
+    width: 30vw;
+}
+
+.hide {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.name {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.products{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: none;
+    flex-direction: column;
+}
+
+.hide:checked +.products{
+    display: flex;
+}
+
+#template{
+    display: none;
+}
+
+.product

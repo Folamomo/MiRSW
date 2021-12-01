@@ -1,0 +1,23 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+}
+
+.item{
+    background-color: gray;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+.header{
+    padding: 0.2em;
+    font-weight: bold;
+    background-color: lime;
+}

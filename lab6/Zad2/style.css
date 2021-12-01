@@ -1,0 +1,17 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+}
+
+.column div{
+    background-color: gray;
+    padding: 0.2em;
+    margin: 0.2em;
+}
